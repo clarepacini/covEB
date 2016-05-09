@@ -52,8 +52,7 @@ In this example there are three parameters excluding the covariance matrix, samp
 From a starting threshold (startlambda) the two user selected parameters determine the size of the interval (delta) and the size of the shift in moving the starting threshold (shift). This shift value means that the range values used are overlapping rather than mutually exclusive. The block diagonal structure of the correlation matrix is determined using the current range and the empirical Bayesian estimation for each block performed separately. The final estimate is an average of each non zero estimation. Setting $startlambda>0$ will aid computation time as any correlations under this level are set to zero and may also be used to reduce noise in the data, by assuming any correlation less than startlambda is noise.
 
 \section{References}
-Champion, C. J. (2003). Empirical Bayesian estimation of normal variances and covariances. Journal of Multivariate Analysis, 87(1), 60Ð79. http://doi.org/10.1016/S0047-259X(02)00076-3
-
+Champion, C. J. (2003). Empirical Bayesian estimation of normal variances and covariances. Journal of Multivariate Analysis, 87(1), 60-79. http://doi.org/10.1016/S0047-259X(02)00076-3
 
 
 
