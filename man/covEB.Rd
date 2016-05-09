@@ -34,7 +34,7 @@ This determines a lower noise level for the correlations, for example, it defaul
 Returns the estimated correlation matrix.
 }
 \references{
-Champion, C. J. (2003). Empirical Bayesian estimation of normal variances and covariances. Journal of Multivariate Analysis, 87(1), 60–79
+Champion, C. J. (2003). Empirical Bayesian estimation of normal variances and covariances. Journal of Multivariate Analysis, 87(1), 60-79
 }
 \author{
 C. Pacini
