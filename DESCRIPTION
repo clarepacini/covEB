@@ -8,5 +8,5 @@ Maintainer: C. Pacini <clarepacini@gmail.com>
 Description: Using bayesian methods to estimate correlation matrices assuming that they can be written and estimated as block diagonal matrices. These block diagonal matrices are determined using shrinkage parameters that values below this parameter to zero.
 License: GPL-3
 Depends: R (>= 3.2), mvtnorm, igraph, gsl
-biocViews: Empirical Bayes, Correlation
+biocViews: Bayesian
 
