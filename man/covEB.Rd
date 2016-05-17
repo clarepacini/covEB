@@ -43,7 +43,7 @@ C. Pacini
 \examples{
 
 
-	library(mvtnorm)
+	
 	sigma <- matrix(c(4,2,2,3), ncol=2)
 x <- rmvnorm(n=500, mean=c(1,2), sigma=sigma)
 
