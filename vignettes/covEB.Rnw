@@ -37,7 +37,12 @@ This package provides an empirical Bayes approach to improve covariance estimate
 \subsection{A Simple Example}
 We show a simple example of how to run the empirical Bayes estimation, these are trivial examples but serve to illustrate the syntax and parameters of the function. We use the package mvtnorm to simulate data from a multivariate normal distribution.
 <<>>=
-
+library(mvtnorm)
+library( igraph)
+library( gsl)
+library(curatedBladderData)
+library(Biobase)
+library(covEB)
  	sigma <- matrix(c(4,2,2,3), ncol=2)
 	x <- rmvnorm(n=500, mean=c(1,2), sigma=sigma)
  

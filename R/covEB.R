@@ -1,4 +1,3 @@
-
 covEB <-
 function(Covmat,delta=0.1,shift=0.05,cutoff=NULL,startlambda=0.5){
 	#check data and parameter inputs are in valid range:
